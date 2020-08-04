@@ -59,7 +59,7 @@ public class BMICalculator extends javax.swing.JPanel {
         jLabel2.setText("Weight:");
 
         HeightCombo.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 12)); // NOI18N
-        HeightCombo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Centimeter", "Meter", "Feet", "Inch" }));
+        HeightCombo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Centimeter", "Meter", "Foot", "Inch" }));
 
         WeightCombo.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 12)); // NOI18N
         WeightCombo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Kilogram", "Pound" }));
@@ -262,8 +262,8 @@ public class BMICalculator extends javax.swing.JPanel {
             if(HeightCombo.getSelectedItem().toString().equals("Centimeter")){
                 HeightInt= HeightInt * 0.01;    //1cm = 0.01m
             }
-            else if(HeightCombo.getSelectedItem().toString().equals("Feet")){
-                HeightInt= HeightInt * 0.3048;  //1feet = 0.3048m
+            else if(HeightCombo.getSelectedItem().toString().equals("Foot")){
+                HeightInt= HeightInt * 0.3048;  //1foot = 0.3048m
             }
             else if(HeightCombo.getSelectedItem().toString().equals("Inch")){
                 HeightInt= HeightInt * 0.0254;  //1inch = 0.0254m

@@ -190,7 +190,7 @@
               <StringArray count="4">
                 <StringItem index="0" value="Centimeter"/>
                 <StringItem index="1" value="Meter"/>
-                <StringItem index="2" value="Feet"/>
+                <StringItem index="2" value="Foot"/>
                 <StringItem index="3" value="Inch"/>
               </StringArray>
             </Property>
