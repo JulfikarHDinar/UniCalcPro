@@ -10,7 +10,7 @@ public class LoadingScreen extends javax.swing.JFrame {
             //This will make the title appear under the logo
             TitleName.setText("  Unicalc Pro");
             
-            Thread.sleep(1000);
+            Thread.sleep(1500); //default 1000
             //this is used for stopping the logo's movement
             LoadingPanel.removeAll();
             

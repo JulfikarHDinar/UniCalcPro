@@ -11,7 +11,7 @@ public class TheMain {
         //Thread class may through any exception
         try {
             //This is called to keep the loading screen for 12000 millisecond or 12 second
-            Thread.sleep(12000);
+            Thread.sleep(3500);  //default 12000
             ob.startApp();
         
         }catch (InterruptedException e) {         

@@ -217,7 +217,7 @@ public class AgeCalculator extends javax.swing.JPanel {
             
             //::::::::::::::::::Calculationg Year, Month, Day:::::::::::::::::://
             int resYear, resMonth, resDay;
-            resYear = diffDays / 365;           //Total Year
+            resYear = diffDays / 365;           //Total Year..
             resMonth = (diffDays % 365) /31;    //Remaining Month after calculating year
             resDay = (diffDays % 365) % 31;     //Remaining Day after calculating month
             
